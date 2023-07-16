@@ -1,10 +1,33 @@
 # RediSolar Python
 
-This is the sample application codebase for the Redis University course [RU102PY, Redis for Python Developers](https://university.redis.com/courses/ru102py/).
+This is application created for the Redis University course completed [RU102PY, Redis for Python Developers](https://university.redis.com/courses/ru102py/).
 
 ## Setup
 
 ![Preview of running application - Solar Site Map with markers](preview.png)
+
+### Docker
+
+Run these commands to developed in a docker container
+
+```
+docker run \
+   --rm \
+   --hostname rlpy \
+   --name rlpy \
+   -v $PWD:/src/redisu/my_project \
+   -p 8888:8888 \
+   -p 8081:8081 \
+   -it \
+   redisuniversity/ru102py-lab
+```
+
+Run this command to enter to the docker container
+
+```
+docker exec -it rlpy sh
+```
+
 
 ### Prerequisites
 
