@@ -1,6 +1,6 @@
 # RediSolar Python
 
-This is application created for the Redis University course completed [RU102PY, Redis for Python Developers](https://university.redis.com/courses/ru102py/).
+This is the application created for the Redis University course completed [RU102PY, Redis for Python Developers](https://university.redis.com/courses/ru102py/).
 
 ## Setup
 
